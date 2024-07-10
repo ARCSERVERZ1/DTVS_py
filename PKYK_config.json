@@ -1,0 +1,38 @@
+{
+  "EWON-TEST": {
+    "CONFIG_DATA" : {
+        "end_point" : "opc.tcp://192.168.1.8:4840",
+        "name_space": "ns=4;s=",
+        "folder_path": "E://IIOT/",
+        "move_mins" : [ 59],
+        "enable_logs" : 1 ,
+        "use_case" : "PokeYoke",
+        "line_code" : "sim",
+        "plant_code": "hosur_unit_1",
+        "company_code": "teal",
+        "poll_rate_millis": 100,
+        "connection_retry_time": 5
+                    },
+
+    "TAG_DATA": {
+      "tags": [
+        "M1_BY_Tracebility",
+        "M1_BY_Tracebility2",
+        "M1_BY_Tracebility3",
+        "M1_ms_Tracebility",
+        "M1_ms_Tracebility1",
+        "M2_BY_Tracebility",
+        "M2_BY_Tracebility1",
+        "M2_BY_Tracebility2",
+        "M2_ms_Tracebility",
+        "M2_ms_Tracebility1"
+
+      ],
+      "general_tags": [
+        "Current_Shift",
+        "Prod_Date"
+      ]
+                   }
+                }
+
+}
